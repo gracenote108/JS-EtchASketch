@@ -1,0 +1,76 @@
+#sketchbox {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    flex-direction: column;
+    border-style: solid;
+    border-color: goldenrod;
+    border-radius: 5%;
+    margin: 50px;
+    background-color: wheat;
+}
+
+#title {
+    position: relative;
+    text-align: center;
+    margin: 15px;
+    font-size: 2em;
+    font-family: 'Tangerine', cursive;
+    transform: scale(1.75, 1.25);
+    color: crimson;
+}
+
+#grid {
+    /* position: relative; */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 480px;
+    height: 480px;
+    border-style: solid;
+    border-color: goldenrod;
+    border-radius: 5%;
+    overflow: hidden;
+    margin: 10px 50px 10px 50px;
+}
+
+.grid-cell {
+    border-style: solid;
+    border-width: 0px;
+}
+
+.grid-column{
+    display: flex;
+    flex-direction: column;
+    background-color: gray;
+}
+
+/* .grid-row {
+    
+} */
+
+#buttoncontainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.btn-style {
+    margin: 20px;
+    border-color: tomato;
+    border-style: solid;
+    border-radius: 20%;
+    
+    padding: 5px 30px;
+    font-family: cursive;
+    background-color: crimson;
+    color: wheat;
+    line-height: 2;
+}
+
+.btn-style:hover {
+    margin: 16px 18px;
+    border-width: 4px;
+}

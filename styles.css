@@ -47,11 +47,7 @@
     background-color: gray;
 }
 
-/* .grid-row {
-    
-} */
-
-#buttoncontainer {
+#btnpanel {
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -68,6 +64,7 @@
     background-color: crimson;
     color: wheat;
     line-height: 2;
+    cursor:pointer;
 }
 
 .btn-style:hover {

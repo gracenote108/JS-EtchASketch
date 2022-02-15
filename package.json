@@ -1,0 +1,29 @@
+{
+  "name": "js-etchasketch",
+  "version": "1.0.0",
+  "description": "This project has us create an Etch-A-Sketch game where we can draw things on a display. The expectation is to have buttons where we can click on a button to enable etching, clear the display and take an input to set the number of grains for the display to contain.",
+  "main": "main.js",
+  "dependencies": {},
+  "devDependencies": {
+    "css-loader": "^6.6.0",
+    "html-webpack-plugin": "^5.5.0",
+    "style-loader": "^3.3.1",
+    "webpack": "^5.69.0",
+    "webpack-cli": "^4.9.2"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build":"webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gracenote108/js-etchasketch.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gracenote108/js-etchasketch/issues"
+  },
+  "homepage": "https://github.com/gracenote108/js-etchasketch#readme"
+}
